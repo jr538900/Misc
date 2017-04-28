@@ -1,0 +1,867 @@
+Jeremy Peters
+B00707976
+CSCI 1101 - Lab 1
+Jan 18/2017
+
+Exercise 1- Robot Game
+
+RobotGame.java:
+
+ ----jGRASP exec: java RobotGame
+Welcome to the Robot Game Simulator!
+
+Enter the name of the first robot: R2D2
+Enter the direction of the first robot: right
+
+Enter the name of the second robot: C3P0
+Enter the direction of the second robot: up
+
+Simulation started!
+R2D2	(1,1)	Right	2  points
+C3P0	(1,1)	Up   	2  points
+
+Move!
+R2D2	(4,1)	Up   	7  points
+C3P0	(1,3)	Right	6  points
+R2D2 ahead!
+
+Move!
+R2D2	(4,3)	Diag 	14  points
+C3P0	(2,3)	Diag 	11  points
+R2D2 ahead!
+
+Move!
+R2D2	(5,4)	Right	23  points
+C3P0	(3,4)	Up   	18  points
+R2D2 ahead!
+
+Move!
+R2D2	(6,4)	Right	33  points
+C3P0	(3,5)	Diag 	26  points
+R2D2 ahead!
+
+Move!
+R2D2	(7,4)	Diag 	44  points
+C3P0	(5,7)	Up   	38  points
+C3P0 ahead!
+
+Move!
+R2D2	(7,4)	Up   	44  points
+C3P0	(5,7)	Right	38  points
+C3P0 ahead!
+
+Move!
+R2D2	(7,7)	Right	58  points
+C3P0	(6,7)	Right	51  points
+R2D2 ahead!
+
+Move!
+R2D2	(8,7)	Up   	73  points
+C3P0	(6,7)	Right	51  points
+R2D2 ahead!
+
+Move!
+R2D2	(8,7)	Right	73  points
+C3P0	(6,7)	Right	51  points
+R2D2 ahead!
+
+Move!
+R2D2	(8,7)	Diag 	73  points
+C3P0	(6,7)	Right	36  points
+R2D2 ahead!
+
+Move!
+R2D2	(8,7)	Up   	73  points
+C3P0	(6,7)	Right	21  points
+R2D2 ahead!
+
+Move!
+R2D2	(8,7)	Up   	73  points
+C3P0	(7,7)	Up   	35  points
+R2D2 ahead!
+
+Move!
+R2D2	(8,7)	Up   	73  points
+C3P0	(7,8)	Up   	50  points
+Both are at the same distance from the goal!
+
+Move!
+R2D2	(8,7)	Right	73  points
+C3P0	(7,8)	Diag 	50  points
+Both are at the same distance from the goal!
+
+Move!
+R2D2	(8,7)	Right	73  points
+C3P0	(7,8)	Diag 	50  points
+Both are at the same distance from the goal!
+
+Move!
+R2D2	(8,7)	Right	73  points
+C3P0	(7,8)	Diag 	50  points
+Both are at the same distance from the goal!
+
+Move!
+R2D2	(8,7)	Right	73  points
+C3P0	(7,8)	Diag 	50  points
+Both are at the same distance from the goal!
+
+Move!
+R2D2	(8,7)	Right	73  points
+C3P0	(7,8)	Right	50  points
+Both are at the same distance from the goal!
+
+Move!
+R2D2	(8,7)	Up   	73  points
+C3P0	(7,8)	Right	50  points
+Both are at the same distance from the goal!
+
+Move!
+R2D2	(8,7)	Up   	73  points
+C3P0	(7,8)	Diag 	50  points
+Both are at the same distance from the goal!
+
+Move!
+R2D2	(8,7)	Right	73  points
+C3P0	(7,8)	Up   	50  points
+Both are at the same distance from the goal!
+
+Move!
+R2D2	(8,7)	Up   	73  points
+C3P0	(7,8)	Up   	50  points
+Both are at the same distance from the goal!
+
+Move!
+R2D2	(8,7)	Diag 	73  points
+C3P0	(7,8)	Diag 	50  points
+Both are at the same distance from the goal!
+
+Move!
+R2D2	(8,7)	Right	73  points
+C3P0	(7,8)	Diag 	50  points
+Both are at the same distance from the goal!
+
+Move!
+R2D2	(8,7)	Diag 	73  points
+C3P0	(7,8)	Up   	50  points
+Both are at the same distance from the goal!
+
+Move!
+R2D2	(8,7)	Right	73  points
+C3P0	(7,8)	Diag 	50  points
+Both are at the same distance from the goal!
+
+Move!
+R2D2	(8,7)	Up   	73  points
+C3P0	(7,8)	Right	50  points
+Both are at the same distance from the goal!
+
+Move!
+R2D2	(8,7)	Right	73  points
+C3P0	(8,8)	Right	66  points
+
+C3P0 has reached the goal (66 points)
+
+Move!
+R2D2	(8,7)	Right	73  points
+
+Move!
+R2D2	(8,7)	Up   	73  points
+
+Move!
+R2D2	(8,7)	Right	73  points
+
+Move!
+R2D2	(8,7)	Diag 	73  points
+
+Move!
+R2D2	(8,7)	Right	73  points
+
+Move!
+R2D2	(8,7)	Up   	73  points
+
+Move!
+R2D2	(8,7)	Right	73  points
+
+Move!
+R2D2	(8,7)	Right	73  points
+
+Move!
+R2D2	(8,7)	Right	73  points
+
+Move!
+R2D2	(8,7)	Right	73  points
+
+Move!
+R2D2	(8,7)	Right	73  points
+
+Move!
+R2D2	(8,7)	Diag 	73  points
+
+Move!
+R2D2	(8,7)	Diag 	73  points
+
+Move!
+R2D2	(8,7)	Up   	73  points
+
+Move!
+R2D2	(8,7)	Up   	73  points
+
+Move!
+R2D2	(8,7)	Right	73  points
+
+Move!
+R2D2	(8,7)	Up   	73  points
+
+Move!
+R2D2	(8,7)	Right	73  points
+
+Move!
+R2D2	(8,7)	Up   	73  points
+
+Move!
+R2D2	(8,7)	Up   	73  points
+
+Move!
+R2D2	(8,7)	Right	73  points
+
+Move!
+R2D2	(8,7)	Right	73  points
+
+Move!
+R2D2	(8,7)	Right	73  points
+
+Move!
+R2D2	(8,7)	Diag 	73  points
+
+Move!
+R2D2	(8,7)	Right	73  points
+
+Move!
+R2D2	(8,7)	Diag 	73  points
+
+Move!
+R2D2	(8,7)	Diag 	73  points
+
+Move!
+R2D2	(8,7)	Diag 	73  points
+
+Move!
+R2D2	(8,7)	Up   	73  points
+
+Move!
+R2D2	(8,7)	Up   	73  points
+
+Move!
+R2D2	(8,8)	Up   	89  points
+
+R2D2 has reached the goal (89 points)
+
+Game over!
+
+ ----jGRASP: operation complete.
+
+
+ ----jGRASP exec: java RobotGame
+Welcome to the Robot Game Simulator!
+
+Enter the name of the first robot: white
+Enter the direction of the first robot: diagonal
+
+Enter the name of the second robot: black
+Enter the direction of the second robot: diagonal
+
+Simulation started!
+white	(1,1)	Diag 	2  points
+black	(1,1)	Diag 	2  points
+
+Move!
+white	(3,3)	Diag 	8  points
+black	(1,1)	Diag 	-4  points
+white ahead!
+
+Move!
+white	(6,6)	Right	20  points
+black	(2,2)	Up   	0  points
+white ahead!
+
+Move!
+white	(7,6)	Up   	33  points
+black	(2,5)	Right	7  points
+white ahead!
+
+Move!
+white	(7,8)	Diag 	48  points
+black	(4,5)	Up   	16  points
+white ahead!
+
+Move!
+white	(7,8)	Up   	48  points
+black	(4,6)	Diag 	26  points
+white ahead!
+
+Move!
+white	(7,8)	Right	48  points
+black	(4,6)	Right	26  points
+white ahead!
+
+Move!
+white	(7,8)	Diag 	48  points
+black	(7,6)	Right	39  points
+white ahead!
+
+Move!
+white	(7,8)	Diag 	48  points
+black	(8,6)	Right	53  points
+white ahead!
+
+Move!
+white	(7,8)	Right	48  points
+black	(8,6)	Diag 	53  points
+white ahead!
+
+Move!
+white	(7,8)	Diag 	48  points
+black	(8,6)	Up   	53  points
+white ahead!
+
+Move!
+white	(7,8)	Up   	48  points
+black	(8,8)	Up   	69  points
+
+black has reached the goal (69 points)
+
+Move!
+white	(7,8)	Diag 	48  points
+
+Move!
+white	(7,8)	Diag 	48  points
+
+Move!
+white	(7,8)	Diag 	48  points
+
+Move!
+white	(7,8)	Up   	48  points
+
+Move!
+white	(7,8)	Up   	48  points
+
+Move!
+white	(7,8)	Diag 	48  points
+
+Move!
+white	(7,8)	Up   	48  points
+
+Move!
+white	(7,8)	Diag 	48  points
+
+Move!
+white	(7,8)	Diag 	48  points
+
+Move!
+white	(7,8)	Up   	48  points
+
+Move!
+white	(7,8)	Diag 	48  points
+
+Move!
+white	(7,8)	Diag 	48  points
+
+Move!
+white	(7,8)	Up   	48  points
+
+Move!
+white	(7,8)	Right	48  points
+
+Move!
+white	(7,8)	Up   	48  points
+
+Move!
+white	(7,8)	Diag 	48  points
+
+Move!
+white	(7,8)	Right	48  points
+
+Move!
+white	(7,8)	Right	48  points
+
+Move!
+white	(7,8)	Right	48  points
+
+Move!
+white	(7,8)	Diag 	48  points
+
+Move!
+white	(7,8)	Up   	48  points
+
+Move!
+white	(7,8)	Up   	48  points
+
+Move!
+white	(7,8)	Right	48  points
+
+Move!
+white	(7,8)	Diag 	48  points
+
+Move!
+white	(7,8)	Up   	48  points
+
+Move!
+white	(7,8)	Right	48  points
+
+Move!
+white	(7,8)	Diag 	48  points
+
+Move!
+white	(7,8)	Up   	48  points
+
+Move!
+white	(7,8)	Up   	48  points
+
+Move!
+white	(7,8)	Diag 	48  points
+
+Move!
+white	(7,8)	Up   	48  points
+
+Move!
+white	(7,8)	Up   	48  points
+
+Move!
+white	(7,8)	Up   	48  points
+
+Move!
+white	(7,8)	Diag 	48  points
+
+Move!
+white	(7,8)	Right	48  points
+
+Move!
+white	(7,8)	Diag 	48  points
+
+Move!
+white	(7,8)	Diag 	48  points
+
+Move!
+white	(7,8)	Right	48  points
+
+Move!
+white	(8,8)	Diag 	64  points
+
+white has reached the goal (64 points)
+
+Game over!
+
+ ----jGRASP: operation complete.
+
+ ----jGRASP exec: java RobotGame
+Welcome to the Robot Game Simulator!
+
+Enter the name of the first robot: robot1
+Enter the direction of the first robot: right
+
+Enter the name of the second robot: robot2
+Enter the direction of the second robot: Right
+
+Simulation started!
+robot1	(1,1)	Right	2  points
+robot2	(1,1)	Right	2  points
+
+Move!
+robot1	(4,1)	Up   	7  points
+robot2	(2,1)	Right	5  points
+robot1 ahead!
+
+Move!
+robot1	(4,4)	Up   	15  points
+robot2	(4,1)	Right	10  points
+robot1 ahead!
+
+Move!
+robot1	(4,5)	Up   	24  points
+robot2	(7,1)	Up   	18  points
+robot1 ahead!
+
+Move!
+robot1	(4,6)	Diag 	34  points
+robot2	(7,3)	Right	28  points
+Both are at the same distance from the goal!
+
+Move!
+robot1	(5,7)	Right	46  points
+robot2	(7,3)	Right	28  points
+robot1 ahead!
+
+Move!
+robot1	(7,7)	Diag 	60  points
+robot2	(7,3)	Up   	28  points
+robot1 ahead!
+
+Move!
+robot1	(7,7)	Up   	60  points
+robot2	(7,4)	Diag 	39  points
+robot1 ahead!
+
+Move!
+robot1	(7,7)	Diag 	60  points
+robot2	(7,4)	Up   	39  points
+robot1 ahead!
+
+Move!
+robot1	(7,7)	Right	60  points
+robot2	(7,6)	Diag 	52  points
+robot1 ahead!
+
+Move!
+robot1	(8,7)	Diag 	75  points
+robot2	(7,6)	Right	37  points
+robot1 ahead!
+
+Move!
+robot1	(8,7)	Diag 	75  points
+robot2	(8,6)	Up   	51  points
+robot1 ahead!
+
+Move!
+robot1	(8,7)	Up   	75  points
+robot2	(8,8)	Right	67  points
+
+robot2 has reached the goal (67 points)
+
+Move!
+robot1	(8,7)	Up   	75  points
+
+Move!
+robot1	(8,7)	Diag 	75  points
+
+Move!
+robot1	(8,7)	Up   	75  points
+
+Move!
+robot1	(8,7)	Right	75  points
+
+Move!
+robot1	(8,7)	Diag 	75  points
+
+Move!
+robot1	(8,7)	Up   	75  points
+
+Move!
+robot1	(8,7)	Diag 	75  points
+
+Move!
+robot1	(8,7)	Right	75  points
+
+Move!
+robot1	(8,7)	Right	75  points
+
+Move!
+robot1	(8,7)	Up   	75  points
+
+Move!
+robot1	(8,7)	Right	75  points
+
+Move!
+robot1	(8,7)	Diag 	75  points
+
+Move!
+robot1	(8,7)	Up   	75  points
+
+Move!
+robot1	(8,7)	Right	75  points
+
+Move!
+robot1	(8,7)	Right	75  points
+
+Move!
+robot1	(8,7)	Right	75  points
+
+Move!
+robot1	(8,7)	Right	75  points
+
+Move!
+robot1	(8,7)	Diag 	75  points
+
+Move!
+robot1	(8,7)	Right	75  points
+
+Move!
+robot1	(8,7)	Up   	75  points
+
+Move!
+robot1	(8,7)	Up   	75  points
+
+Move!
+robot1	(8,7)	Up   	75  points
+
+Move!
+robot1	(8,7)	Diag 	75  points
+
+Move!
+robot1	(8,7)	Right	75  points
+
+Move!
+robot1	(8,7)	Up   	75  points
+
+Move!
+robot1	(8,7)	Right	75  points
+
+Move!
+robot1	(8,7)	Right	75  points
+
+Move!
+robot1	(8,7)	Diag 	75  points
+
+Move!
+robot1	(8,7)	Up   	75  points
+
+Move!
+robot1	(8,7)	Up   	75  points
+
+Move!
+robot1	(8,8)	Right	91  points
+
+robot1 has reached the goal (91 points)
+
+Game over!
+
+ ----jGRASP: operation complete.
+
+ 
+Exercise 2:  Hangman.java
+
+ ----jGRASP exec: java Hangman
+??????
+Found: false
+Incorrect. You have 5 guesses left.
+Play?: true
+??????
+Incorrect. You have 4 guesses left.
+Play?: true
+??????
+Incorrect. You have 3 guesses left.
+Play?: true
+??????
+Correct.
+Play?: true
+?a???a
+Incorrect. You have 2 guesses left.
+Play?: true
+?a???a
+Incorrect. You have 1 guesses left.
+Play?: true
+?a???a
+Incorrect. You have 0 guesses left.
+
+The secret word was kakuna
+You lose!
+Play?: false
+?a???a
+Correct.
+Play?: true
+kak??a
+Found? false
+
+ ----jGRASP: operation complete.
+
+ ----jGRASP exec: java Hangman
+?????
+Found: false
+Incorrect. You have 5 guesses left.
+Play?: true
+?????
+Incorrect. You have 4 guesses left.
+Play?: true
+?????
+Incorrect. You have 3 guesses left.
+Play?: true
+?????
+Correct.
+Play?: true
+a????
+Correct.
+Play?: true
+ar???
+Correct.
+Play?: true
+arb??
+Correct.
+Play?: true
+arbo?
+
+Secret word: arbok
+You win!
+Play?: false
+arbok
+Found? true
+
+ ----jGRASP: operation complete.
+
+Hangmandemo.java
+
+ ----jGRASP exec: java Hangmandemo
+Welcome to the hangman game.
+I have a secret Pokemon character name. You have to guess it.
+You are allowed only six incorrect guesses.
+
+Secret word: ??????
+Enter the guess: c
+Incorrect. You have 5 guesses left.
+
+Secret word: ??????
+Enter the guess: e
+Correct.
+
+Secret word: ?e????
+Enter the guess: b
+Incorrect. You have 4 guesses left.
+
+Secret word: ?e????
+Enter the guess: f
+Correct.
+
+Secret word: fe????
+Enter the guess: a
+Correct.
+
+Secret word: fea???
+Enter the guess: w
+Correct.
+
+Secret word: fea??w
+Enter the guess: o
+Correct.
+
+Secret word: fea?ow
+Enter the guess: s
+Incorrect. You have 3 guesses left.
+
+Secret word: fea?ow
+Enter the guess: r
+
+Secret word: fearow
+You win!
+
+ ----jGRASP: operation complete.
+
+ ----jGRASP exec: java Hangmandemo
+Welcome to the hangman game.
+I have a secret Pokemon character name. You have to guess it.
+You are allowed only six incorrect guesses.
+
+Secret word: ?????????
+Enter the guess: a
+Correct.
+
+Secret word: ????a?a??
+Enter the guess: t
+Incorrect. You have 5 guesses left.
+
+Secret word: ????a?a??
+Enter the guess: 
+b
+Correct.
+
+Secret word: b??ba?a??
+Enter the guess: t
+You already guessed t. Choose another letter.
+
+Secret word: b??ba?a??
+Enter the guess: s
+Correct.
+
+Secret word: b??basa??
+Enter the guess: o
+Incorrect. You have 4 guesses left.
+
+Secret word: b??basa??
+Enter the guess: a
+You already guessed a. Choose another letter.
+
+Secret word: b??basa??
+Enter the guess: p
+Incorrect. You have 3 guesses left.
+
+Secret word: b??basa??
+Enter the guess: s
+You already guessed s. Choose another letter.
+
+Secret word: b??basa??
+Enter the guess: c
+Incorrect. You have 2 guesses left.
+
+Secret word: b??basa??
+Enter the guess: v
+Incorrect. You have 1 guesses left.
+
+Secret word: b??basa??
+Enter the guess: u
+Correct.
+
+Secret word: bu?basau?
+Enter the guess: y
+Incorrect. You have 0 guesses left.
+
+The secret word was bulbasaur
+You lose!
+
+ ----jGRASP: operation complete.
+
+ ----jGRASP exec: java Hangmandemo
+Welcome to the hangman game.
+I have a secret Pokemon character name. You have to guess it.
+You are allowed only six incorrect guesses.
+
+Secret word: ??????
+Enter the guess: p
+Correct.
+
+Secret word: p?????
+Enter the guess: i
+Correct.
+
+Secret word: pi????
+Enter the guess: p
+You already guessed p. Choose another letter.
+
+Secret word: pi????
+Enter the guess: c
+Incorrect. You have 5 guesses left.
+
+Secret word: pi????
+Enter the guess: u
+Incorrect. You have 4 guesses left.
+
+Secret word: pi????
+Enter the guess: c
+You already guessed c. Choose another letter.
+
+Secret word: pi????
+Enter the guess: d
+Correct.
+
+Secret word: pid???
+Enter the guess: t
+Incorrect. You have 3 guesses left.
+
+Secret word: pid???
+Enter the guess: g
+Correct.
+
+Secret word: pidg??
+Enter the guess: x
+Incorrect. You have 2 guesses left.
+
+Secret word: pidg??
+Enter the guess: e
+Correct.
+
+Secret word: pidge?
+Enter the guess: y
+
+Secret word: pidgey
+You win!
+
+ ----jGRASP: operation complete.
+
+
+
