@@ -1,0 +1,479 @@
+Jeremy Peters
+B00707976
+CSCI 1101 - Assignment 3
+Mar 17/2017
+
+
+
+ ----jGRASP exec: java Client1
+The seat at row 1 and position A is already occupied for flight 001 at airline JAZZ.
+
+
+SYSTEM STATUS:
+Airports: [HFX, TOR]
+Airlines: [JAZZ]
+1 flights:
+
+#1
+Airline: JAZZ
+Flight ID: 001
+Origin: HFX
+Destination: TOR
+Seats:  
+Row#		A      	B      	C      	D      	E      	F      	
+1   		BOOKED	BOOKED	BOOKED	BOOKED	BOOKED	BOOKED	
+2   		BOOKED	BOOKED	BOOKED	BOOKED	BOOKED	BOOKED	
+3   		BOOKED	BOOKED	BOOKED	BOOKED	BOOKED	BOOKED	
+4   		BOOKED	BOOKED	BOOKED	BOOKED	BOOKED	BOOKED	
+5   		BOOKED	BOOKED	BOOKED	BOOKED	BOOKED	BOOKED	
+6   		BOOKED	BOOKED	BOOKED	BOOKED	BOOKED	BOOKED	
+7   		BOOKED	BOOKED	BOOKED	BOOKED	BOOKED	BOOKED	
+8   		BOOKED	BOOKED	BOOKED	BOOKED	BOOKED	BOOKED	
+9   		BOOKED	BOOKED	BOOKED	BOOKED	BOOKED	BOOKED	
+10   		BOOKED	BOOKED	BOOKED	BOOKED	BOOKED	BOOKED	
+
+
+ ----jGRASP: operation complete.
+
+
+
+ ----jGRASP exec: java Client2
+The name, "ABC", cannot be listed twice.
+The name, "WXYZ", must have 3 capital alphabetic characters.
+The name, "WJET", cannot be listed twice.
+The name, "DREAMLINER", must have fewer than 6 characters.
+The flight ID, "113", cannot be listed twice under airline, AC.
+The origin airport, ABC, and destination airport, ABC, must be different.
+The airline, "SWISS", must be previously defined.
+The airports, "XYZ", and "ABC", must both be defined.
+The flight with ID, "113", at airline, "AC" already has seats.
+No flight with ID, "456", at airline, "AC", was found.
+
+
+2 available flights from "ABC" to "DEF": 
+
+#1
+Airline: WJET
+Flight ID: 123
+Origin: ABC
+Destination: DEF
+Seats:  
+Row#		A      	B      	C      	D      	E      	F      	
+1   		vacant	vacant	vacant	vacant	vacant	vacant	
+2   		vacant	vacant	vacant	vacant	vacant	vacant	
+3   		vacant	vacant	vacant	vacant	vacant	vacant	
+4   		vacant	vacant	vacant	vacant	vacant	vacant	
+5   		vacant	vacant	vacant	vacant	vacant	vacant	
+6   		vacant	vacant	vacant	vacant	vacant	vacant	
+7   		vacant	vacant	vacant	vacant	vacant	vacant	
+8   		vacant	vacant	vacant	vacant	vacant	vacant	
+9   		vacant	vacant	vacant	vacant	vacant	vacant	
+10   		vacant	vacant	vacant	vacant	vacant	vacant	
+11   		vacant	vacant	vacant	vacant	vacant	vacant	
+12   		vacant	vacant	vacant	vacant	vacant	vacant	
+13   		vacant	vacant	vacant	vacant	vacant	vacant	
+14   		vacant	vacant	vacant	vacant	vacant	vacant	
+15   		vacant	vacant	vacant	vacant	vacant	vacant	
+16   		vacant	vacant	vacant	vacant	vacant	vacant	
+17   		vacant	vacant	vacant	vacant	vacant	vacant	
+18   		vacant	vacant	vacant	vacant	vacant	vacant	
+19   		vacant	vacant	vacant	vacant	vacant	vacant	
+20   		vacant	vacant	vacant	vacant	vacant	vacant	
+21   		vacant	vacant	vacant	vacant	vacant	vacant	
+22   		vacant	vacant	vacant	vacant	vacant	vacant	
+23   		vacant	vacant	vacant	vacant	vacant	vacant	
+24   		vacant	vacant	vacant	vacant	vacant	vacant	
+25   		vacant	vacant	vacant	vacant	vacant	vacant	
+26   		vacant	vacant	vacant	vacant	vacant	vacant	
+27   		vacant	vacant	vacant	vacant	vacant	vacant	
+28   		vacant	vacant	vacant	vacant	vacant	vacant	
+29   		vacant	vacant	vacant	vacant	vacant	vacant	
+30   		vacant	vacant	vacant	vacant	vacant	vacant	
+
+
+#2
+Airline: AC
+Flight ID: 113
+Origin: ABC
+Destination: DEF
+Seats:  
+Row#		A      	B      	C      	D      	E      	F      	
+1   		vacant	vacant	vacant	vacant	vacant	vacant	
+2   		vacant	vacant	vacant	vacant	vacant	vacant	
+3   		vacant	vacant	vacant	vacant	vacant	vacant	
+4   		vacant	vacant	vacant	vacant	vacant	vacant	
+5   		vacant	vacant	vacant	vacant	vacant	vacant	
+6   		vacant	vacant	vacant	vacant	vacant	vacant	
+7   		vacant	vacant	vacant	vacant	vacant	vacant	
+8   		vacant	vacant	vacant	vacant	vacant	vacant	
+9   		vacant	vacant	vacant	vacant	vacant	vacant	
+10   		vacant	vacant	vacant	vacant	vacant	vacant	
+11   		vacant	vacant	vacant	vacant	vacant	vacant	
+12   		vacant	vacant	vacant	vacant	vacant	vacant	
+13   		vacant	vacant	vacant	vacant	vacant	vacant	
+14   		vacant	vacant	vacant	vacant	vacant	vacant	
+15   		vacant	vacant	vacant	vacant	vacant	vacant	
+
+There are no available flights from "ABC" to "GHI".
+[]
+The origin airport, "ABC", and destination airports, "ABC", must be different.
+[]
+The flight with airline "UD" and ID "200" is invalid
+The flight with airline "WJET" and ID "666" is unavailable.
+Row 1 and column number G is invalid for flight 113 at airline AC.
+The seat at row 7 and position A is already occupied for flight 123 at airline WJET.
+
+
+SYSTEM STATUS:
+Airports: [ABC, DEF, GHI]
+Airlines: [AC, WJET, JBLUE, UNITD]
+4 flights:
+
+#1
+Airline: WJET
+Flight ID: 123
+Origin: ABC
+Destination: DEF
+Seats:  
+Row#		A      	B      	C      	D      	E      	F      	
+1   		vacant	vacant	vacant	vacant	vacant	vacant	
+2   		vacant	vacant	vacant	vacant	vacant	vacant	
+3   		vacant	vacant	vacant	vacant	vacant	vacant	
+4   		vacant	vacant	vacant	vacant	vacant	vacant	
+5   		vacant	vacant	vacant	vacant	vacant	vacant	
+6   		vacant	vacant	vacant	vacant	vacant	vacant	
+7   		BOOKED	vacant	vacant	vacant	vacant	vacant	
+8   		vacant	vacant	vacant	vacant	vacant	vacant	
+9   		vacant	vacant	vacant	vacant	vacant	vacant	
+10   		vacant	vacant	vacant	vacant	vacant	vacant	
+11   		vacant	vacant	vacant	vacant	vacant	vacant	
+12   		vacant	vacant	vacant	vacant	vacant	vacant	
+13   		vacant	vacant	vacant	vacant	vacant	vacant	
+14   		vacant	vacant	vacant	vacant	vacant	vacant	
+15   		vacant	vacant	vacant	vacant	vacant	vacant	
+16   		vacant	vacant	vacant	vacant	vacant	vacant	
+17   		vacant	vacant	vacant	vacant	vacant	vacant	
+18   		vacant	vacant	vacant	vacant	vacant	vacant	
+19   		vacant	vacant	vacant	vacant	vacant	vacant	
+20   		vacant	vacant	vacant	vacant	vacant	vacant	
+21   		vacant	vacant	vacant	vacant	vacant	vacant	
+22   		vacant	vacant	vacant	vacant	vacant	vacant	
+23   		vacant	vacant	vacant	vacant	vacant	vacant	
+24   		vacant	vacant	vacant	vacant	vacant	vacant	
+25   		vacant	vacant	vacant	vacant	vacant	vacant	
+26   		vacant	vacant	vacant	vacant	vacant	vacant	
+27   		vacant	vacant	vacant	vacant	vacant	vacant	
+28   		vacant	vacant	vacant	vacant	vacant	vacant	
+29   		vacant	vacant	vacant	vacant	vacant	vacant	
+30   		vacant	vacant	vacant	vacant	vacant	vacant	
+
+#2
+Airline: AC
+Flight ID: 113
+Origin: ABC
+Destination: DEF
+Seats:  
+Row#		A      	B      	C      	D      	E      	F      	
+1   		BOOKED	vacant	vacant	vacant	BOOKED	BOOKED	
+2   		BOOKED	vacant	vacant	vacant	BOOKED	vacant	
+3   		BOOKED	vacant	BOOKED	BOOKED	BOOKED	vacant	
+4   		vacant	vacant	BOOKED	BOOKED	BOOKED	vacant	
+5   		vacant	BOOKED	vacant	BOOKED	BOOKED	BOOKED	
+6   		BOOKED	BOOKED	vacant	vacant	vacant	vacant	
+7   		BOOKED	BOOKED	BOOKED	vacant	BOOKED	vacant	
+8   		BOOKED	vacant	vacant	vacant	BOOKED	BOOKED	
+9   		BOOKED	BOOKED	vacant	BOOKED	BOOKED	BOOKED	
+10   		vacant	vacant	BOOKED	vacant	BOOKED	vacant	
+11   		BOOKED	BOOKED	vacant	BOOKED	BOOKED	vacant	
+12   		vacant	vacant	BOOKED	BOOKED	BOOKED	BOOKED	
+13   		vacant	vacant	vacant	vacant	vacant	vacant	
+14   		BOOKED	vacant	BOOKED	BOOKED	vacant	vacant	
+15   		BOOKED	vacant	vacant	vacant	vacant	vacant	
+
+#3
+Airline: UNITD
+Flight ID: 200
+Origin: DEF
+Destination: GHI
+Seats:  
+Row#		A      	B      	C      	D      	E      	F      	
+1   		vacant	vacant	vacant	vacant	vacant	vacant	
+2   		vacant	vacant	vacant	vacant	vacant	vacant	
+3   		vacant	vacant	vacant	vacant	vacant	vacant	
+4   		vacant	vacant	vacant	vacant	vacant	vacant	
+5   		vacant	vacant	vacant	vacant	vacant	vacant	
+6   		vacant	vacant	vacant	vacant	vacant	vacant	
+7   		vacant	vacant	vacant	vacant	vacant	vacant	
+8   		vacant	vacant	vacant	vacant	vacant	vacant	
+9   		vacant	vacant	vacant	vacant	vacant	vacant	
+10   		vacant	vacant	vacant	vacant	vacant	vacant	
+11   		vacant	vacant	vacant	vacant	vacant	vacant	
+12   		vacant	vacant	vacant	vacant	vacant	vacant	
+13   		vacant	vacant	vacant	vacant	vacant	vacant	
+14   		vacant	vacant	vacant	vacant	vacant	vacant	
+15   		vacant	vacant	vacant	vacant	vacant	vacant	
+16   		vacant	vacant	vacant	vacant	vacant	vacant	
+17   		vacant	vacant	vacant	vacant	vacant	vacant	
+18   		vacant	vacant	vacant	vacant	vacant	vacant	
+19   		vacant	vacant	vacant	vacant	vacant	vacant	
+20   		vacant	vacant	vacant	vacant	vacant	vacant	
+
+#4
+Airline: WJET
+Flight ID: 666
+Origin: DEF
+Destination: GHI
+Seats:  The flight, 666, has no seats.
+
+
+ ----jGRASP: operation complete.
+
+
+
+ ----jGRASP exec: java Client3
+The name, "LONDON", must have 3 capital alphabetic characters.
+The name, "123", must have 3 capital alphabetic characters.
+The name, "FRONTIER", must have fewer than 6 characters.
+The flight ID, "123", cannot be listed twice under airline, AC.
+
+
+2 available flights from "YHZ" to "YYZ": 
+
+#1
+Airline: AC
+Flight ID: 567
+Origin: YHZ
+Destination: YYZ
+Seats:  
+Row#		A      	B      	C      	D      	E      	F      	
+1   		vacant	vacant	vacant	vacant	vacant	vacant	
+2   		vacant	vacant	vacant	vacant	vacant	vacant	
+3   		vacant	vacant	vacant	vacant	vacant	vacant	
+4   		vacant	vacant	vacant	vacant	vacant	vacant	
+5   		vacant	vacant	vacant	vacant	vacant	vacant	
+6   		vacant	vacant	vacant	vacant	vacant	vacant	
+7   		vacant	vacant	vacant	vacant	vacant	vacant	
+8   		vacant	vacant	vacant	vacant	vacant	vacant	
+9   		vacant	vacant	vacant	vacant	vacant	vacant	
+10   		vacant	vacant	vacant	vacant	vacant	vacant	
+
+
+#2
+Airline: AC
+Flight ID: 689
+Origin: YHZ
+Destination: YYZ
+Seats:  
+Row#		A      	B      	C      	D      	E      	F      	
+1   		vacant	vacant	vacant	vacant	vacant	vacant	
+2   		vacant	vacant	vacant	vacant	vacant	vacant	
+3   		vacant	vacant	vacant	vacant	vacant	vacant	
+4   		vacant	vacant	vacant	vacant	vacant	vacant	
+5   		vacant	vacant	vacant	vacant	vacant	vacant	
+6   		vacant	vacant	vacant	vacant	vacant	vacant	
+7   		vacant	vacant	vacant	vacant	vacant	vacant	
+8   		vacant	vacant	vacant	vacant	vacant	vacant	
+9   		vacant	vacant	vacant	vacant	vacant	vacant	
+10   		vacant	vacant	vacant	vacant	vacant	vacant	
+11   		vacant	vacant	vacant	vacant	vacant	vacant	
+12   		vacant	vacant	vacant	vacant	vacant	vacant	
+13   		vacant	vacant	vacant	vacant	vacant	vacant	
+14   		vacant	vacant	vacant	vacant	vacant	vacant	
+15   		vacant	vacant	vacant	vacant	vacant	vacant	
+16   		vacant	vacant	vacant	vacant	vacant	vacant	
+17   		vacant	vacant	vacant	vacant	vacant	vacant	
+18   		vacant	vacant	vacant	vacant	vacant	vacant	
+19   		vacant	vacant	vacant	vacant	vacant	vacant	
+20   		vacant	vacant	vacant	vacant	vacant	vacant	
+
+The flight with airline "AC" and ID "506" is invalid
+Row 55 and column number C is invalid for flight 123 at airline AC.
+
+
+SYSTEM STATUS:
+Airports: [YHZ, YYZ, YUL, YVR, YYC, YEG, BOS, JFK]
+Airlines: [AC, DELTA, USAIR, WSJET]
+5 flights:
+
+#1
+Airline: AC
+Flight ID: 123
+Origin: YHZ
+Destination: YUL
+Seats:  
+Row#		A      	B      	C      	D      	E      	F      	
+1   		BOOKED	vacant	vacant	vacant	vacant	vacant	
+2   		vacant	vacant	vacant	vacant	vacant	vacant	
+3   		vacant	vacant	vacant	vacant	vacant	vacant	
+4   		vacant	vacant	vacant	vacant	vacant	vacant	
+5   		vacant	vacant	vacant	vacant	vacant	vacant	
+6   		vacant	vacant	vacant	vacant	vacant	vacant	
+7   		vacant	vacant	vacant	vacant	vacant	vacant	
+8   		vacant	vacant	vacant	vacant	vacant	vacant	
+9   		vacant	vacant	vacant	vacant	vacant	vacant	
+10   		vacant	vacant	vacant	vacant	vacant	vacant	
+11   		vacant	vacant	vacant	vacant	vacant	vacant	
+12   		vacant	vacant	vacant	vacant	vacant	vacant	
+13   		vacant	vacant	vacant	vacant	vacant	vacant	
+14   		vacant	vacant	vacant	vacant	vacant	vacant	
+15   		vacant	vacant	vacant	vacant	vacant	vacant	
+16   		vacant	vacant	vacant	vacant	vacant	vacant	
+17   		vacant	vacant	vacant	vacant	vacant	vacant	
+18   		vacant	vacant	vacant	vacant	vacant	vacant	
+19   		vacant	vacant	vacant	vacant	vacant	vacant	
+20   		vacant	vacant	vacant	vacant	vacant	BOOKED	
+21   		vacant	vacant	vacant	vacant	vacant	vacant	
+22   		vacant	vacant	vacant	vacant	vacant	vacant	
+23   		vacant	vacant	vacant	vacant	vacant	vacant	
+24   		vacant	vacant	vacant	vacant	vacant	vacant	
+25   		vacant	vacant	vacant	vacant	vacant	vacant	
+26   		vacant	vacant	vacant	vacant	vacant	vacant	
+27   		vacant	vacant	vacant	vacant	vacant	vacant	
+28   		vacant	vacant	vacant	vacant	vacant	vacant	
+29   		vacant	vacant	vacant	vacant	vacant	vacant	
+30   		vacant	vacant	vacant	vacant	vacant	vacant	
+31   		vacant	vacant	vacant	vacant	vacant	vacant	
+32   		vacant	vacant	vacant	vacant	vacant	vacant	
+33   		vacant	vacant	vacant	vacant	vacant	vacant	
+34   		vacant	vacant	vacant	vacant	vacant	vacant	
+35   		vacant	vacant	vacant	vacant	vacant	vacant	
+36   		vacant	vacant	vacant	vacant	vacant	vacant	
+37   		vacant	vacant	vacant	vacant	vacant	vacant	
+38   		vacant	vacant	vacant	vacant	vacant	vacant	
+39   		vacant	vacant	vacant	vacant	vacant	vacant	
+40   		vacant	vacant	vacant	vacant	vacant	vacant	
+
+#2
+Airline: AC
+Flight ID: 567
+Origin: YHZ
+Destination: YYZ
+Seats:  
+Row#		A      	B      	C      	D      	E      	F      	
+1   		vacant	vacant	vacant	vacant	vacant	vacant	
+2   		vacant	vacant	vacant	vacant	vacant	vacant	
+3   		vacant	vacant	vacant	vacant	vacant	vacant	
+4   		vacant	vacant	vacant	vacant	vacant	vacant	
+5   		vacant	vacant	vacant	vacant	vacant	vacant	
+6   		vacant	vacant	vacant	vacant	vacant	vacant	
+7   		vacant	vacant	vacant	vacant	vacant	vacant	
+8   		vacant	vacant	vacant	vacant	vacant	vacant	
+9   		vacant	vacant	vacant	vacant	vacant	vacant	
+10   		vacant	vacant	vacant	vacant	vacant	vacant	
+
+#3
+Airline: AC
+Flight ID: 789
+Origin: YUL
+Destination: YHZ
+Seats:  
+Row#		A      	B      	C      	D      	E      	F      	
+1   		vacant	vacant	vacant	vacant	vacant	vacant	
+2   		vacant	vacant	vacant	vacant	vacant	vacant	
+3   		vacant	vacant	vacant	vacant	vacant	vacant	
+4   		vacant	vacant	vacant	vacant	vacant	vacant	
+5   		vacant	vacant	vacant	vacant	vacant	vacant	
+6   		vacant	vacant	vacant	vacant	vacant	vacant	
+7   		vacant	vacant	vacant	vacant	vacant	vacant	
+8   		vacant	vacant	vacant	vacant	vacant	vacant	
+9   		vacant	vacant	vacant	vacant	vacant	vacant	
+10   		vacant	vacant	vacant	vacant	vacant	vacant	
+11   		vacant	vacant	vacant	vacant	vacant	vacant	
+12   		vacant	vacant	vacant	vacant	vacant	vacant	
+13   		vacant	vacant	vacant	vacant	vacant	vacant	
+14   		vacant	vacant	vacant	vacant	vacant	vacant	
+15   		vacant	vacant	vacant	vacant	vacant	vacant	
+16   		vacant	vacant	vacant	vacant	vacant	vacant	
+17   		vacant	vacant	vacant	vacant	vacant	vacant	
+18   		vacant	vacant	vacant	vacant	vacant	vacant	
+19   		vacant	vacant	vacant	vacant	vacant	vacant	
+20   		vacant	vacant	vacant	vacant	vacant	vacant	
+21   		vacant	vacant	vacant	vacant	vacant	vacant	
+22   		vacant	vacant	vacant	vacant	vacant	vacant	
+23   		vacant	vacant	vacant	vacant	vacant	vacant	
+24   		vacant	vacant	vacant	vacant	vacant	vacant	
+25   		vacant	vacant	vacant	vacant	vacant	vacant	
+26   		vacant	vacant	vacant	vacant	vacant	vacant	
+27   		vacant	vacant	vacant	vacant	vacant	vacant	
+28   		vacant	vacant	vacant	vacant	vacant	vacant	
+29   		vacant	vacant	vacant	vacant	vacant	vacant	
+30   		vacant	vacant	vacant	vacant	vacant	vacant	
+31   		vacant	vacant	vacant	vacant	vacant	vacant	
+32   		vacant	vacant	vacant	vacant	vacant	vacant	
+33   		vacant	vacant	vacant	vacant	vacant	vacant	
+34   		vacant	vacant	vacant	vacant	vacant	vacant	
+35   		vacant	vacant	vacant	vacant	vacant	vacant	
+36   		vacant	vacant	vacant	vacant	vacant	vacant	
+37   		vacant	vacant	vacant	vacant	vacant	vacant	
+38   		vacant	vacant	vacant	vacant	vacant	vacant	
+39   		vacant	vacant	vacant	vacant	vacant	vacant	
+40   		vacant	vacant	vacant	vacant	vacant	vacant	
+41   		vacant	vacant	vacant	vacant	vacant	vacant	
+42   		vacant	vacant	vacant	vacant	vacant	vacant	
+43   		vacant	vacant	vacant	vacant	vacant	vacant	
+44   		vacant	vacant	vacant	vacant	vacant	vacant	
+45   		vacant	vacant	vacant	vacant	vacant	vacant	
+
+#4
+Airline: AC
+Flight ID: 689
+Origin: YHZ
+Destination: YYZ
+Seats:  
+Row#		A      	B      	C      	D      	E      	F      	
+1   		vacant	vacant	vacant	vacant	vacant	vacant	
+2   		vacant	vacant	vacant	vacant	vacant	vacant	
+3   		vacant	vacant	vacant	vacant	vacant	vacant	
+4   		vacant	vacant	vacant	vacant	vacant	vacant	
+5   		vacant	vacant	vacant	vacant	vacant	vacant	
+6   		vacant	vacant	vacant	vacant	vacant	vacant	
+7   		vacant	vacant	vacant	vacant	vacant	vacant	
+8   		vacant	vacant	vacant	vacant	vacant	vacant	
+9   		vacant	vacant	vacant	vacant	vacant	vacant	
+10   		vacant	vacant	vacant	vacant	vacant	vacant	
+11   		vacant	vacant	vacant	vacant	vacant	vacant	
+12   		vacant	vacant	vacant	vacant	vacant	vacant	
+13   		vacant	vacant	vacant	vacant	vacant	vacant	
+14   		vacant	vacant	vacant	vacant	vacant	vacant	
+15   		vacant	vacant	vacant	vacant	vacant	vacant	
+16   		vacant	vacant	vacant	vacant	vacant	vacant	
+17   		vacant	vacant	vacant	vacant	vacant	vacant	
+18   		vacant	vacant	vacant	vacant	vacant	vacant	
+19   		vacant	vacant	vacant	vacant	vacant	vacant	
+20   		vacant	vacant	vacant	vacant	vacant	vacant	
+
+#5
+Airline: DELTA
+Flight ID: 123
+Origin: YHZ
+Destination: BOS
+Seats:  
+Row#		A      	B      	C      	D      	E      	F      	
+1   		vacant	vacant	vacant	vacant	vacant	vacant	
+2   		vacant	vacant	vacant	vacant	vacant	vacant	
+3   		vacant	vacant	vacant	vacant	vacant	vacant	
+4   		vacant	vacant	vacant	vacant	vacant	vacant	
+5   		vacant	vacant	vacant	vacant	vacant	vacant	
+6   		vacant	vacant	vacant	vacant	vacant	vacant	
+7   		vacant	vacant	vacant	vacant	vacant	vacant	
+8   		vacant	vacant	vacant	vacant	vacant	vacant	
+9   		vacant	vacant	vacant	vacant	vacant	vacant	
+10   		vacant	vacant	vacant	vacant	vacant	vacant	
+11   		vacant	vacant	vacant	vacant	vacant	vacant	
+12   		vacant	vacant	vacant	vacant	vacant	vacant	
+13   		vacant	vacant	vacant	vacant	vacant	vacant	
+14   		vacant	vacant	vacant	vacant	vacant	vacant	
+15   		vacant	vacant	vacant	vacant	vacant	vacant	
+16   		vacant	vacant	vacant	vacant	vacant	vacant	
+17   		vacant	vacant	vacant	vacant	vacant	vacant	
+18   		vacant	vacant	vacant	vacant	vacant	vacant	
+19   		vacant	vacant	vacant	vacant	vacant	vacant	
+20   		vacant	vacant	vacant	vacant	vacant	vacant	
+21   		vacant	vacant	vacant	vacant	vacant	vacant	
+22   		vacant	vacant	vacant	vacant	vacant	vacant	
+23   		vacant	vacant	vacant	vacant	vacant	vacant	
+24   		vacant	vacant	vacant	vacant	vacant	vacant	
+25   		vacant	vacant	vacant	vacant	vacant	vacant	
+
+
+ ----jGRASP: operation complete.
