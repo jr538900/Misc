@@ -1,0 +1,17 @@
+Bob       Halifax        1992      
+
+Fred      Toronto        1996      
+
+Chris     Truro          2000      
+
+Xiao      St.John’s      1997      
+
+Amar      Halifax        1995      
+
+Ben       Montreal       1991      
+
+Sara      Toronto        1993      
+
+Karen     Vancouver      1990      
+
+Hamed     Toronto        1991      
