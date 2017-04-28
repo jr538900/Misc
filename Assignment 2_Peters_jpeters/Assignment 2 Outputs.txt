@@ -1,0 +1,650 @@
+Jeremy Peters
+B00707976
+CSCI 1101 - Assignment 2
+Feb 27/2017
+
+Tic-Tac-Toe:
+
+ ----jGRASP exec: java Play
+Player 1 name: Jeremy
+Player 2 name: Michael
+
+Jeremy - you are Xs and you go first.
+
+   			Col
+   			1   		2	   	3
+Row	1		 		 		 
+
+   	2		 		 		 
+
+   	3		 		 		 
+
+Jeremy - please input a row# between 1-3 and column# between 1-3: 1 1
+
+   			Col
+   			1   		2	   	3
+Row	1		X		 		 
+
+   	2		 		 		 
+
+   	3		 		 		 
+
+Michael please input a row# between 1-3 and column# between 1-3: 1 4
+Please make sure your move is legal.
+
+   			Col
+   			1   		2	   	3
+Row	1		X		 		 
+
+   	2		 		 		 
+
+   	3		 		 		 
+
+Michael please input a row# between 1-3 and column# between 1-3: 1 2
+
+   			Col
+   			1   		2	   	3
+Row	1		X		O		 
+
+   	2		 		 		 
+
+   	3		 		 		 
+
+Jeremy please input a row# between 1-3 and column# between 1-3: 3 1
+
+   			Col
+   			1   		2	   	3
+Row	1		X		O		 
+
+   	2		 		 		 
+
+   	3		X		 		 
+
+Michael please input a row# between 1-3 and column# between 1-3: 2 1
+
+   			Col
+   			1   		2	   	3
+Row	1		X		O		 
+
+   	2		O		 		 
+
+   	3		X		 		 
+
+Jeremy please input a row# between 1-3 and column# between 1-3: 2 2
+
+   			Col
+   			1   		2	   	3
+Row	1		X		O		 
+
+   	2		O		X		 
+
+   	3		X		 		 
+
+Michael please input a row# between 1-3 and column# between 1-3: 2 2
+Please make sure your move is legal.
+
+   			Col
+   			1   		2	   	3
+Row	1		X		O		 
+
+   	2		O		X		 
+
+   	3		X		 		 
+
+Michael please input a row# between 1-3 and column# between 1-3: 1 3
+
+   			Col
+   			1   		2	   	3
+Row	1		X		O		O
+
+   	2		O		X		 
+
+   	3		X		 		 
+
+Jeremy please input a row# between 1-3 and column# between 1-3: 3 3
+
+   			Col
+   			1   		2	   	3
+Row	1		X		O		O
+
+   	2		O		X		 
+
+   	3		X		 		X
+
+Jeremy you win!!
+
+ ----jGRASP: operation complete.
+
+
+ ----jGRASP exec: java Play
+Player 1 name: Peter
+Player 2 name: Jeremy
+
+Peter - you are Xs and you go first.
+
+   			Col
+   			1   		2	   	3
+Row	1		 		 		 
+
+   	2		 		 		 
+
+   	3		 		 		 
+
+Peter - please input a row# between 1-3 and column# between 1-3: 1 0
+Please make sure your move is legal.
+
+   			Col
+   			1   		2	   	3
+Row	1		 		 		 
+
+   	2		 		 		 
+
+   	3		 		 		 
+
+Peter please input a row# between 1-3 and column# between 1-3: 4 5
+Please make sure your move is legal.
+
+   			Col
+   			1   		2	   	3
+Row	1		 		 		 
+
+   	2		 		 		 
+
+   	3		 		 		 
+
+Peter please input a row# between 1-3 and column# between 1-3: 2 1
+
+   			Col
+   			1   		2	   	3
+Row	1		 		 		 
+
+   	2		X		 		 
+
+   	3		 		 		 
+
+Jeremy please input a row# between 1-3 and column# between 1-3: 2 2
+
+   			Col
+   			1   		2	   	3
+Row	1		 		 		 
+
+   	2		X		O		 
+
+   	3		 		 		 
+
+Peter please input a row# between 1-3 and column# between 1-3: 2 3
+
+   			Col
+   			1   		2	   	3
+Row	1		 		 		 
+
+   	2		X		O		X
+
+   	3		 		 		 
+
+Jeremy please input a row# between 1-3 and column# between 1-3: 1 2
+
+   			Col
+   			1   		2	   	3
+Row	1		 		O		 
+
+   	2		X		O		X
+
+   	3		 		 		 
+
+Peter please input a row# between 1-3 and column# between 1-3: 1 1
+
+   			Col
+   			1   		2	   	3
+Row	1		X		O		 
+
+   	2		X		O		X
+
+   	3		 		 		 
+
+Jeremy please input a row# between 1-3 and column# between 1-3: 3 2
+
+   			Col
+   			1   		2	   	3
+Row	1		X		O		 
+
+   	2		X		O		X
+
+   	3		 		O		 
+
+Jeremy you win!!
+
+ ----jGRASP: operation complete.
+
+
+
+ ----jGRASP exec: java Play
+Player 1 name: Jeremy
+Player 2 name: Brian
+
+Jeremy - you are Xs and you go first.
+
+   			Col
+   			1   		2	   	3
+Row	1		 		 		 
+
+   	2		 		 		 
+
+   	3		 		 		 
+
+Jeremy - please input a row# between 1-3 and column# between 1-3: 1 1
+
+   			Col
+   			1   		2	   	3
+Row	1		X		 		 
+
+   	2		 		 		 
+
+   	3		 		 		 
+
+Brian please input a row# between 1-3 and column# between 1-3: 3 2
+
+   			Col
+   			1   		2	   	3
+Row	1		X		 		 
+
+   	2		 		 		 
+
+   	3		 		O		 
+
+Jeremy please input a row# between 1-3 and column# between 1-3: 3 1
+
+   			Col
+   			1   		2	   	3
+Row	1		X		 		 
+
+   	2		 		 		 
+
+   	3		X		O		 
+
+Brian please input a row# between 1-3 and column# between 1-3: 2 1
+
+   			Col
+   			1   		2	   	3
+Row	1		X		 		 
+
+   	2		O		 		 
+
+   	3		X		O		 
+
+Jeremy please input a row# between 1-3 and column# between 1-3: 1 3
+
+   			Col
+   			1   		2	   	3
+Row	1		X		 		X
+
+   	2		O		 		 
+
+   	3		X		O		 
+
+Brian please input a row# between 1-3 and column# between 1-3: 2 2
+
+   			Col
+   			1   		2	   	3
+Row	1		X		 		X
+
+   	2		O		O		 
+
+   	3		X		O		 
+
+Jeremy please input a row# between 1-3 and column# between 1-3: 1 2
+
+   			Col
+   			1   		2	   	3
+Row	1		X		X		X
+
+   	2		O		O		 
+
+   	3		X		O		 
+
+Jeremy you win!!
+
+ ----jGRASP: operation complete.
+
+
+ ----jGRASP exec: java Play
+Player 1 name: Brian
+Player 2 name: Michael
+
+Brian - you are Xs and you go first.
+
+   			Col
+   			1   		2	   	3
+Row	1		 		 		 
+
+   	2		 		 		 
+
+   	3		 		 		 
+
+Brian - please input a row# between 1-3 and column# between 1-3: 2 1
+
+   			Col
+   			1   		2	   	3
+Row	1		 		 		 
+
+   	2		X		 		 
+
+   	3		 		 		 
+
+Michael please input a row# between 1-3 and column# between 1-3: 3 1
+
+   			Col
+   			1   		2	   	3
+Row	1		 		 		 
+
+   	2		X		 		 
+
+   	3		O		 		 
+
+Brian please input a row# between 1-3 and column# between 1-3: 3 2
+
+   			Col
+   			1   		2	   	3
+Row	1		 		 		 
+
+   	2		X		 		 
+
+   	3		O		X		 
+
+Michael please input a row# between 1-3 and column# between 1-3: 2 2
+
+   			Col
+   			1   		2	   	3
+Row	1		 		 		 
+
+   	2		X		O		 
+
+   	3		O		X		 
+
+Brian please input a row# between 1-3 and column# between 1-3: 1 1
+
+   			Col
+   			1   		2	   	3
+Row	1		X		 		 
+
+   	2		X		O		 
+
+   	3		O		X		 
+
+Michael please input a row# between 1-3 and column# between 1-3: 1 3
+
+   			Col
+   			1   		2	   	3
+Row	1		X		 		O
+
+   	2		X		O		 
+
+   	3		O		X		 
+
+Michael you win!!
+
+ ----jGRASP: operation complete.
+
+
+ ----jGRASP exec: java Play
+Player 1 name: Brian
+Player 2 name: Peter
+
+Brian - you are Xs and you go first.
+
+   			Col
+   			1   		2	   	3
+Row	1		 		 		 
+
+   	2		 		 		 
+
+   	3		 		 		 
+
+Brian - please input a row# between 1-3 and column# between 1-3: 1 1
+
+   			Col
+   			1   		2	   	3
+Row	1		X		 		 
+
+   	2		 		 		 
+
+   	3		 		 		 
+
+Peter please input a row# between 1-3 and column# between 1-3: 1 2
+
+   			Col
+   			1   		2	   	3
+Row	1		X		O		 
+
+   	2		 		 		 
+
+   	3		 		 		 
+
+Brian please input a row# between 1-3 and column# between 1-3: 2 2
+
+   			Col
+   			1   		2	   	3
+Row	1		X		O		 
+
+   	2		 		X		 
+
+   	3		 		 		 
+
+Peter please input a row# between 1-3 and column# between 1-3: 3 3
+
+   			Col
+   			1   		2	   	3
+Row	1		X		O		 
+
+   	2		 		X		 
+
+   	3		 		 		O
+
+Brian please input a row# between 1-3 and column# between 1-3: 2 1
+
+   			Col
+   			1   		2	   	3
+Row	1		X		O		 
+
+   	2		X		X		 
+
+   	3		 		 		O
+
+Peter please input a row# between 1-3 and column# between 1-3: 3 1
+
+   			Col
+   			1   		2	   	3
+Row	1		X		O		 
+
+   	2		X		X		 
+
+   	3		O		 		O
+
+Brian please input a row# between 1-3 and column# between 1-3: 3 2
+
+   			Col
+   			1   		2	   	3
+Row	1		X		O		 
+
+   	2		X		X		 
+
+   	3		O		X		O
+
+Peter please input a row# between 1-3 and column# between 1-3: 3 2
+Please make sure your move is legal.
+
+   			Col
+   			1   		2	   	3
+Row	1		X		O		 
+
+   	2		X		X		 
+
+   	3		O		X		O
+
+Peter please input a row# between 1-3 and column# between 1-3: 2 3
+
+   			Col
+   			1   		2	   	3
+Row	1		X		O		 
+
+   	2		X		X		O
+
+   	3		O		X		O
+
+Brian please input a row# between 1-3 and column# between 1-3: 1 3
+
+   			Col
+   			1   		2	   	3
+Row	1		X		O		X
+
+   	2		X		X		O
+
+   	3		O		X		O
+
+Tie game.
+
+ ----jGRASP: operation complete.
+
+
+ ----jGRASP exec: java Play
+Player 1 name: Michael
+Player 2 name: Peter
+
+Michael - you are Xs and you go first.
+
+   			Col
+   			1   		2	   	3
+Row	1		 		 		 
+
+   	2		 		 		 
+
+   	3		 		 		 
+
+Michael - please input a row# between 1-3 and column# between 1-3: 1 1
+
+   			Col
+   			1   		2	   	3
+Row	1		X		 		 
+
+   	2		 		 		 
+
+   	3		 		 		 
+
+Peter please input a row# between 1-3 and column# between 1-3: 1 2
+
+   			Col
+   			1   		2	   	3
+Row	1		X		O		 
+
+   	2		 		 		 
+
+   	3		 		 		 
+
+Michael please input a row# between 1-3 and column# between 1-3: 1 3
+
+   			Col
+   			1   		2	   	3
+Row	1		X		O		X
+
+   	2		 		 		 
+
+   	3		 		 		 
+
+Peter please input a row# between 1-3 and column# between 1-3: 3 4
+Please make sure your move is legal.
+
+   			Col
+   			1   		2	   	3
+Row	1		X		O		X
+
+   	2		 		 		 
+
+   	3		 		 		 
+
+Peter please input a row# between 1-3 and column# between 1-3: 1 1
+Please make sure your move is legal.
+
+   			Col
+   			1   		2	   	3
+Row	1		X		O		X
+
+   	2		 		 		 
+
+   	3		 		 		 
+
+Peter please input a row# between 1-3 and column# between 1-3: 3 1
+
+   			Col
+   			1   		2	   	3
+Row	1		X		O		X
+
+   	2		 		 		 
+
+   	3		O		 		 
+
+Michael please input a row# between 1-3 and column# between 1-3: 3 3
+
+   			Col
+   			1   		2	   	3
+Row	1		X		O		X
+
+   	2		 		 		 
+
+   	3		O		 		X
+
+Peter please input a row# between 1-3 and column# between 1-3: 2 3
+
+   			Col
+   			1   		2	   	3
+Row	1		X		O		X
+
+   	2		 		 		O
+
+   	3		O		 		X
+
+Michael please input a row# between 1-3 and column# between 1-3: 2 1
+
+   			Col
+   			1   		2	   	3
+Row	1		X		O		X
+
+   	2		X		 		O
+
+   	3		O		 		X
+
+Peter please input a row# between 1-3 and column# between 1-3: 3 2
+
+   			Col
+   			1   		2	   	3
+Row	1		X		O		X
+
+   	2		X		 		O
+
+   	3		O		O		X
+
+Michael please input a row# between 1-3 and column# between 1-3: 3 3
+Please make sure your move is legal.
+
+   			Col
+   			1   		2	   	3
+Row	1		X		O		X
+
+   	2		X		 		O
+
+   	3		O		O		X
+
+Michael please input a row# between 1-3 and column# between 1-3: 2 2
+
+   			Col
+   			1   		2	   	3
+Row	1		X		O		X
+
+   	2		X		X		O
+
+   	3		O		O		X
+
+Michael you win!!
+
+ ----jGRASP: operation complete.
+
+
